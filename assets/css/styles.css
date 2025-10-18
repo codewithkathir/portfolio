@@ -1,0 +1,45 @@
+ .reveal {
+     opacity: 0;
+     transform: translateY(16px);
+     transition: opacity .6s ease, transform .6s ease;
+ }
+
+ .reveal.revealed {
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ .gradient-text {
+     background-image: linear-gradient(90deg, #22d3ee, #a855f7, #f43f5e);
+     background-size: 200% 200%;
+     -webkit-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     animation: shimmer 8s linear infinite;
+ }
+
+ .hover\:shadow-glow:hover {
+     box-shadow:
+         0 0 15px 2px rgba(255, 100, 150, 0.4),
+         /* pinkish inner glow */
+         0 0 30px 6px rgba(128, 0, 255, 0.25),
+         /* purple mid glow */
+         0 0 60px 12px rgba(255, 0, 255, 0.15);
+     /* soft outer glow */
+     transition: box-shadow 0.5s ease-in-out;
+ }
+
+ /* Gray glow on big card */
+ .shadow-gray-glow {
+     box-shadow: 0 0 15px 4px rgba(200, 200, 200, 0.2), 0 0 40px 8px rgba(200, 200, 200, 0.15);
+     transition: box-shadow 0.5s ease-in-out, transform 0.3s ease-in-out;
+ }
+
+ .shadow-gray-glow:hover {
+     box-shadow: 0 0 30px 6px rgba(200, 200, 200, 0.3), 0 0 60px 12px rgba(200, 200, 200, 0.25);
+     transform: translateY(-2px) scale(1.01);
+ }
+
+ .hover\:shadow-glow-role:hover {
+     box-shadow: 0 0 15px 4px rgba(200, 200, 200, 0.3), 0 0 40px 8px rgba(200, 200, 200, 0.2);
+ }

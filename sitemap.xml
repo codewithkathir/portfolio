@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+ 
+  <url>
+    <loc>https://kathiravan.live/</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+ 
+    <image:image>
+      <image:loc>https://kathiravan.live/assets/images/kathir.JPG</image:loc>
+      <image:caption>Kathiravan Full-Stack Web Developer India | React Node.js Expert | Web Develoepr</image:caption>
+      <image:title>Full-Stack Web Developer India</image:title>
+    </image:image>
+ 
+    <image:image>
+      <image:loc>https://kathiravan.live/assets/images/kathiravan.png</image:loc>
+      <image:caption>Kathiravan Nambirajan | Full-Stack Developer India | React Angular Node.js Expert | Web Develoepr Chennai</image:caption>
+      <image:title>Kathiravan Nambirajan | Full-Stack Developer India</image:title>
+    </image:image>
+ 
+    <image:image>
+      <image:loc>https://kathiravan.live/assets/images/techus.png</image:loc>
+      <image:caption>Tech.Us Responsive UI/UX Project | React Web Developer India | Full-Stack Developer Chennai</image:caption>
+      <image:title>Tech.Us Web Development Project</image:title>
+    </image:image>
+ 
+    <image:image>
+      <image:loc>https://kathiravan.live/assets/images/emailer.png</image:loc>
+      <image:caption> Emailer | AWS SES Cron Email Automation | React Node.js Full-Stack Developer</image:caption>
+      <image:title> Emailer Project </image:title>
+    </image:image>
+ 
+    <image:image>
+      <image:loc>https://kathiravan.live/assets/images/annotation.jpg</image:loc>
+      <image:caption>Annotation Platform | AI-Powered Image Annotation | React Node.js Developer India</image:caption>
+      <image:title>Annotation Platform </image:title>
+    </image:image>
+ 
+    <image:image>
+      <image:loc>https://kathiravan.live/assets/images/quiz.png</image:loc>
+      <image:caption>Quiz App | Secure REST API | Full-Stack Web Developer India | Node.js MySQL React</image:caption>
+      <image:title>Quiz App Project </image:title>
+    </image:image>
+ 
+    <image:image>
+      <image:loc>https://kathiravan.live/assets/images/friendsinchrist.png</image:loc>
+      <image:caption>Friends in Christ Quiz App | React Node.js Full-Stack Developer India | Web Develoepr Chennai</image:caption>
+      <image:title>Friends in Christ Project </image:title>
+    </image:image>
+
+  </url>
+
+</urlset>
