@@ -1,4 +1,20 @@
- .reveal {
+/* For Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none; /* hides scrollbar */
+}
+
+/* Optional: maintain scroll functionality */
+body {
+  -ms-overflow-style: none; /* for Internet Explorer and Edge */
+  overflow-y: scroll;       /* keeps scrolling enabled */
+}
+
+.reveal {
      opacity: 0;
      transform: translateY(16px);
      transition: opacity .6s ease, transform .6s ease;
@@ -43,3 +59,52 @@
  .hover\:shadow-glow-role:hover {
      box-shadow: 0 0 15px 4px rgba(200, 200, 200, 0.3), 0 0 40px 8px rgba(200, 200, 200, 0.2);
  }
+
+.scroll-tag-list {
+  width: 40rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-inner {
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+  animation: loop 20s linear infinite;
+}
+
+.scroll-tag {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow:  
+     0 0.1rem 0.2rem #00000033,
+     0 0.1rem 0.5rem #0000004d,
+     0 0.2rem 1.5rem #00000066;
+}
+
+.scroll-tag span {
+  font-size: 1.2rem;
+  color: #64748b;
+}
+
+.scroll-fade {
+  position: absolute;
+  background: linear-gradient(90deg, #1e293b, transparent 10%, transparent 10%, #1e293b);
+  inset: 0;
+  pointer-events: none;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+ 

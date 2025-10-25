@@ -157,6 +157,12 @@ window.addEventListener('DOMContentLoaded', () => {
       } finally {
         loader.classList.add('hidden');
         submitBtn.disabled = false;
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+          contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // Optional: focus the section for accessibility
+          contactSection.focus({ preventScroll: true });
+        }
       }
     });
   }
