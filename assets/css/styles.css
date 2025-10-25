@@ -121,6 +121,17 @@ body {
  
 @media only screen and (max-width: 500px) {
 .scroll-tag-list {
+  width: 20rem;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.scroll-tag-list {
+  width: 19rem;
+}
+}
+@media only screen and (max-width: 350px) {
+.scroll-tag-list {
   width: 17rem;
 }
 }
